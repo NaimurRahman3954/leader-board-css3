@@ -1,0 +1,186 @@
+/* Common Styles */
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #F3F1FF;
+   max-width: 1440px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Poppins";
+   font-size: 16px;
+}
+
+h3{
+   color: #562EFF;
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.container{
+   width: 870px;
+}
+
+section{
+   background-color: white;
+   padding: 30px;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+/* Header Style */
+header{
+   width: 1440px;
+   background-color: #562EFF;
+   display: grid;
+   place-items: center;
+}
+
+/* Navbar Styles */
+
+nav{
+   padding: 20px 0;
+}
+
+nav, .left, .right{
+   display: flex;
+   align-items: center;
+}
+
+nav a{
+   text-decoration: none;
+   color: white;
+}
+
+.left{
+   gap: 10px;
+   width: 400px;
+   gap: 10px;
+   justify-content: flex-start;
+}
+
+.right{
+   gap: 20px;
+   width: 470px;
+   gap: 20px;
+   justify-content: flex-end;
+}
+
+.left img{
+   width: 40px;
+}
+
+.right img{
+   width: 51px;
+}
+
+/* Top Player Style */
+.top-players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   row-gap: 30px;
+   padding: 20px 0;
+}
+
+.top-players img{
+   width: 56px;
+}
+
+.player{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+/* Horizontal Line Style  */
+hr{
+   margin: 20px 0;
+   background-color: #D1D1D1;
+   border: 0.3px solid #D1D1D1;
+}
+
+/* Top Blog Style */
+
+.top-blogs{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px 20px;
+}
+
+article{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.top-blogs img{
+   height: 117px;
+   width: 177px;
+}
+
+.blog-title, .course-title{
+   font-size: 20px;
+}
+
+.top-blogs span{
+   color: #9F9F9F !important;
+}
+
+.author{
+   color: #562EFF;
+}
+
+
+/* Courses Style  */
+.courses-section{
+   margin-bottom: 30px;
+}
+
+.course-deck{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 15px;
+}
+
+.course{
+   border-radius: 10px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   padding: 20px;
+}
+.course img{
+   width: 224px;
+}
+
+.instructor{
+   color: #ED6B4F;
+}
+
+.course-info, .duration{
+   font-size: 13px;
+}
+
+.course-info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.fa-star{
+   color: #FFC014;
+}
+
+.empty{
+   color: #AEAEAE;
+}
+
+.course-info .rating span{
+   color: #A2A2A2;
+   margin-left: 5px;
+}
+
+.duration{
+   color: #FF4A60;
+   background-color: #FFE4E8;
+   padding: 5px 10px;
+   border-radius: 22px;
+}
